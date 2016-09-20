@@ -1,0 +1,44 @@
+/*
+selector {
+	property: value;
+	property: value, value; , = preference
+	property: value value; space = set
+}
+
+class ="what"
+->
+(tag).what {
+	
+}
+
+
+inheritance
+
+TRBL
+
+smacss 
+1. base - element typography, 
+2. layout - #id
+3. modules = photos
+4. state- media queries/javascript
+5. theme
+
+스타일 시트를 하나에서 관리할경우 이미 다운로드 되어있으므로 다시 다운받을 필요가 없으므로 새로고침해도 변화x
+*/
+
+html {
+	font-family: 'Oswald','Slabo 27px', sans-serif;
+	background-color: black;
+	color: white;
+}
+
+main {
+	font-family: 'Slabo 27px', sans-serif;
+}
+
+section, #contact_info {
+	border: dotted white;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 10px 10px 10px;
+}
+
