@@ -2,10 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
-  	<meta name="viewport" content="width=device-width,intial-scale=1.0,shrink-to-fit=no"/>
-  	<link rel="stylesheet" type="text/css" media="screen" href="./tmp.css">
-  	<link href="https://fonts.googleapis.com/css?family=Oswald|Slabo+27px" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,intial-scale=1.0,shrink-to-fit=no"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="./tmp.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Slabo+27px" rel="stylesheet">
 	<title>Home</title>
+  <style>
+    img,video {
+      display: block;
+      max-width: 100%;
+    }
+  </style>
 </head>
 <body>
 <nav>
@@ -13,7 +19,7 @@
 		<li><a href="./index.html">Home</a></li>
 		<li><a href="./aboutme.html">About me</a></li>
 		<li>Review 
-		  	<ul> 
+		  <ul> 
 				<li><a href="./post_korea.html">Korea</a></li>
 				<li><a href="./post_world.html">World</a></li>
 			</ul>	
@@ -24,7 +30,7 @@
   <h1>Welcome to in the terrace</h1>
 </header>
 <main id="main">
- 	<section class="Top_Stories">
+ 	<section id="Top_Stories">
  		<h2>Top Stories</h2>
   </section>
   <section id="Latest News">
@@ -32,7 +38,37 @@
   </section>
   <section id="Recommendation">
     <h2>Recommendation</h2>
-    
+    <article>
+      <h3>Making Cheesecake without Creamcheese</h3>
+      <figure class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GZLUF3PxvHk" frameborder="0" allowfullscreen></iframe>     <<figcaption>
+          <a href="https://www.youtube.com/embed/GZLUF3PxvHk">Here</a>
+        </figcaption>
+      </figure>
+    </article>
+    <article>
+      <h3>Vingle</h3>
+      <figure class="photo">
+          <a href="https://www.vingle.net/"><img srcset="./src/vingle_logo.png 300w, ./src/vingle_logo_150.png 150w " sizes="100vw"  src="./src/vingle_logo.png" alt="vingle_logo"></a>
+      </figure>
+    </article>
+    <article>
+      <h3></h3>
+      <figure class="audio">
+        <audio src="./src/candlepower.mp3" type="audio/mp3"></audio>
+        <figcaption>
+          Chris Zabriskie의 Candlepower은(는) Creative Commons Attribution 라이선스(https://creativecommons.org/licenses/by/4.0/)에 따라 라이선스가 부여됩니다. 출처: http://chriszabriskie.com/divider/ 아티스트: http://chriszabriskie.com/
+        </figcaption>
+      </figure>
+    </article>
+    <article>
+      <h3>Restaurant Ambience</h3>
+      <figure class="video">
+        <video controls="controls"> 
+          <source src="./src/restaurant_ambience_hd.mp4" type="video/mp4">
+        </video>
+      </figure>
+    </article>
   </section>
 </main>
 <footer id="footer">
