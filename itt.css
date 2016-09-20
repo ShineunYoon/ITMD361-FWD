@@ -28,8 +28,6 @@ smacss
 
 html {
 	font-family: 'Oswald','Slabo 27px', sans-serif;
-	background-color: black;
-	color: white;
 }
 
 main {
@@ -37,7 +35,7 @@ main {
 }
 
 section, #contact_info {
-	border: dotted white;
+	border: dotted black;
 	padding: 10px 20px 10px 20px;
 	margin: 10px 10px 10px 10px;
 }
