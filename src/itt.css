@@ -24,6 +24,8 @@ smacss
 5. theme
 
 스타일 시트를 하나에서 관리할경우 이미 다운로드 되어있으므로 다시 다운받을 필요가 없으므로 새로고침해도 변화x
+max width never used
+72pt=1inch
 */
 
 html {
