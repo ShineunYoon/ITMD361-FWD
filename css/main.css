@@ -47,6 +47,28 @@ img, video, audio {
   max-width: 100%;
 }
 
+#navigation {
+	position:absolute;
+	top:0;
+}
+
+.navigation li {
+	display:inline-block;
+	padding: 0;
+	line-height: 1;
+}
+
+.navigation {
+	padding:0;
+}
+
+.navigation li a {
+	display:block;
+	background-color:#222;
+	color:#EFE5BE;
+	text-decoration:none;
+}
+
 /*==================RESUME.HTML==================*/
 #contact_info {
 	border: dotted black;
