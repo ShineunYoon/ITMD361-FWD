@@ -42,3 +42,7 @@ section, #contact_info {
 	margin: 10px 10px 10px 10px;
 }
 
+img, video, audio {
+  display: block;
+  max-width: 100%;
+}
