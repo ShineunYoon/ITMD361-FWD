@@ -59,11 +59,13 @@ ol, ul {
     list-style: none;
 }
 
-blockquote, q {
+blockquote, 
+q {
     quotes: none;
 }
 
-blockquote:before, blockquote:after,
+blockquote:before, 
+blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
@@ -74,7 +76,7 @@ table {
     border-spacing: 0;
 }
 
-/*==================LAYOUT STYLES==================*/
+/*==================BASESTYLES==================*/
 
 html {
 	font-family: 'Oswald','Slabo 27px', sans-serif;
@@ -95,8 +97,8 @@ section {
 }
 
 h1 {
-	font-size: 1.778em; /*32.004px*/
-	line-height: 1.375em; /*44px*/
+	font-size: 1.728em; /* 31.104px */
+	line-height: 1.375em; /* 44px */
 }
 
 img {
@@ -104,7 +106,8 @@ img {
   max-width: 100%;
 }
 
-video, audio {
+video, 
+audio {
   display: block;
   max-width: 100%;
 }
@@ -114,13 +117,15 @@ a {
 	color: black;
 }
 
-a:active, a:hover {
+a:active,
+a:hover {
 	color: #FCED1C;
 	outline: 0;
 }
 
 #header {
 	padding-top: 3.667em; /* 66px / 18px */
+	text-align: center;
 }
 
 #navigation {
@@ -128,7 +133,7 @@ a:active, a:hover {
 	top: 0;
 }
 
-.navigation li,
+.navigation li, 
 .navigation li:last-child {
 	display: inline-block;
 	padding: 0;
@@ -155,3 +160,11 @@ a:active, a:hover {
 	padding: 10px 20px 10px 20px;
 	margin: 10px 10px 10px 10px;
 }
+
+/*==================MODULAR STYLES==================*/
+
+.content ul {
+	list-style-type: disc;
+}
+
+/*==================STATE STYLES==================*/
