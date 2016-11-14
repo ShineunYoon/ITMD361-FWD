@@ -1,4 +1,4 @@
-/*
+﻿/*
 selector {
 	property: value;
 	property: value, value; , = preference
@@ -111,9 +111,7 @@ h3 {
 	padding-top: 0.5093em;
 }
 
-img,
-video, 
-audio {
+img, video, audio {
   display: block;
   max-width: 100%;
 }
@@ -132,8 +130,15 @@ a:hover {
 
 
 #header {
-	padding-top: 3.667em; /* 66px / 18px */
+	top:0;
+	left:0;
 	text-align: center;
+	width: 100%;
+}
+
+#header img {
+	text-align: center;
+	width:100%;
 }
 
 
