@@ -103,6 +103,10 @@ article ul {
   margin: 0.3125em 0.3125em 0.3125em 0.3125em;
 }
 
+article a {
+	color: white;
+}
+
 footer {
   padding-top: 0.84876em;
   width: 100%;
@@ -181,7 +185,7 @@ figure figcaption {
 }
 
 /*==================STATE STYLES==================*/
-@media all and (max-width:360px) {
+@media all and (max-width:767px) {
 	html {
 	  font-size: 1.125em;
 	  line-height: 1.222em;
@@ -209,16 +213,13 @@ figure figcaption {
 		padding-top: 0.849em;
 		font-size: 1.44em;
 	  line-height: 1.273em;
+	  text-align: center;
 	}
 
 	h3 {
 	  padding-top: 0.5093em;
 	  font-size: 1.2em;
 	  line-height: 1.0185em; 
-	}
-
-	ul {
-
 	}
 
 	.wrapper li {
@@ -284,16 +285,159 @@ figure figcaption {
 	}
 }
 
+@media all and (min-width:768px) {
+	html {
+	  font-size: 1.125em;
+	  line-height: 1.222em;
+	  background-color: white;
+	  color: black;
+	  font-family: 'Lato', sans-serif;
+	  width:100%;height: 100%;
+	}
 
-/*tablet*/
-@media all and (min-width:361px) and (max-width:1024px) {
+	nav {
+		top: 0;
+	  left: 0;
+	  position: absolute;
+	  width: 100%;
+	  height: 1.728em;
+	  background: black;
+	}
 
-}
 
-/*desktop*/
-@media all and (min-width:1025px) {
+	h1 {
+		padding-top: 1.728em;
+		font-size: 1.728em;
+		line-height: 1.414em;
+	}
 
-  section {
-    padding: 1.222em;
+	h2 {
+		padding-top: 0.849em;
+		font-size: 1.44em;
+	  line-height: 1.273em;
+	  text-align: center;
+	}
+
+	h3 {
+	  padding-top: 0.5093em;
+	  font-size: 1.2em;
+	  line-height: 1.0185em; 
+	}
+
+	footer {
+	}
+
+	.wrapper li {
+		float: left;
+		width: 33.333%;
+  	list-style-type: none;
+  	padding-bottom: 0;
+  	text-align: center;
+	}
+
+	.wrapper li a {
+		color: white;
+	}
+
+	.schools li {
+		padding-top: 0.625em;
+	}
+
+	.schools li ul {
+		padding-left:  0.849em;
+	}
+
+	.school_name {
+		margin-top: 1.222em;
+		font-style: bold;
+	}
+
+	.projects li {
+		padding-top: 0.625em;
+	}
+
+	.projects li ul {
+		padding-left:  0.849em;
+	}
+
+	.experiences li {
+		padding-top: 0.625em;
+	}
+
+	.experiences li ul {
+		padding-left:  0.849em;
+	}
+
+	.skills li {
+		padding-top: 0.625em;
+	}
+
+	.skills li ul {
+		padding-left:  0.849em;
+	}
+
+	.activities_scholarship li {
+		padding-top: 0.625em;
+	}
+
+	.activities_scholarship li ul {
+		padding-left:  0.849em;
+	}
+
+	.date_location {
+		font-size: 0.849em;
+		font-style: italic;
+	}
+
+	#main {
+    margin: 5px auto;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  #a1{
+    float:left;
+    padding: 5px;
+    margin: 5px;
+    height: auto;
+    width:45%;
+  }
+  #a2{
+    float:left;
+    padding: 5px;
+    margin: 5px;
+    height: auto;
+    width:45%;
+  }
+  #a3{
+    float:left;
+    padding: 5px;
+    margin: 5px;
+    height: auto;
+    width: 45%;
+  }
+  #a4{
+    float:left;
+    padding: 5px;
+    margin: 5px;
+    height: auto;
+    width:45%;
+  }
+  #a5{
+    float:left;
+    padding: 5px;
+    margin: 5px;
+    height: auto;
+    width:45%;
+  }
+
+  #a6{
+    float:left;
+    padding: 5px;
+    margin: 5px;
+    height: auto;
+    width:45%;
   }
 }
