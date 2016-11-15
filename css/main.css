@@ -390,45 +390,46 @@ figure figcaption {
 	}
 
 	#main {
-    margin: 5px auto;
+    margin-top: 1em;
     height: auto;
     width: 100%;
     overflow: hidden;
     position: relative;
+    text-align: center;
   }
 
   #a1{
     float:left;
-    padding: 5px;
-    margin: 5px;
+    padding: 0.15625em;
+    margin: 0.625em;
     height: auto;
     width:45%;
   }
   #a2{
     float:left;
-    padding: 5px;
-    margin: 5px;
+    padding: 0.15625em;
+    margin: 0.625em;
     height: auto;
     width:45%;
   }
   #a3{
     float:left;
-    padding: 5px;
-    margin: 5px;
+    padding: 0.15625em;
+    margin: 0.625em;
     height: auto;
     width: 45%;
   }
   #a4{
     float:left;
-    padding: 5px;
-    margin: 5px;
+    padding: 0.15625em;
+    margin: 0.625em;
     height: auto;
-    width:45%;
+    width: 45%;
   }
   #a5{
     float:left;
-    padding: 5px;
-    margin: 5px;
+    padding: 0.15625em;
+    margin: 0.625em;
     height: auto;
     width:45%;
   }
