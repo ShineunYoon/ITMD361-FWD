@@ -119,6 +119,8 @@ h1 {
   text-align: center;
   font-size: 1.728em; /* 31.104px */
   line-height: 1.375em; /* 44px */
+  padding-top: 1.375em;
+  padding-bottom: 1.125em;
 }
 
 h2 {
@@ -293,7 +295,7 @@ figure figcaption {
 	  background-color: #e0e0e0;
 	  color: black;
 	  font-family: 'Lato', sans-serif;
-	  width:100%;
+	  width: 100%;
 	  height: 100%;
 	}
 
