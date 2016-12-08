@@ -403,14 +403,6 @@ figure figcaption {
     text-align: center;
   }
 
-  .m_article{
-    float:left;
-    padding: 0.15625em;
-    margin: 0.625em;
-    height: auto;
-    width:45%;
-  }
-
   #cover {
     margin-top: 1em;
     height: auto;
@@ -420,46 +412,18 @@ figure figcaption {
     text-align: center;
   }
 
-  #turtles_160919{
-  	float:left;
+  .m_article{
+    float:left;
     padding: 0.15625em;
-    margin: 0.3125em;
+    margin: 0.625em;
     height: auto;
-    width: 30%;
-  }
-  #kaiSushi_160902{
-  	float:left;
-    padding: 0.15625em;
-    margin: 0.3125em;
-    height: auto;
-    width: 30%;
-  }
-  #laPomme_160106{
-  	float:left;
-    padding: 0.15625em;
-    margin: 0.3125em;
-    height: auto;
-    width: 30%;
-  }
-  #ghirardelli_160820{
-  	float:left;
-    padding: 0.15625em;
-    margin: 0.3125em;
-    height: auto;
-    width: 30%;
-  }
-  #mediumRare_161008{
-  	float:left;
-    padding: 0.15625em;
-  	margin: 0.3125em;
-    height: auto;
-    width: 30%;
+    width:45%;
   }
 
-  #cotedor_160507 {
+  .p_article {
   	float:left;
     padding: 0.15625em;
-  	margin: 0.3125em;
+    margin: 0.3125em;
     height: auto;
     width: 30%;
   }
