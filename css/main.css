@@ -398,35 +398,35 @@ figure figcaption {
     text-align: center;
   }
 
-  #a1{
+  #post-1{
     float:left;
     padding: 0.15625em;
     margin: 0.625em;
     height: auto;
     width:45%;
   }
-  #a2{
+  #post-2{
     float:left;
     padding: 0.15625em;
     margin: 0.625em;
     height: auto;
     width:45%;
   }
-  #a3{
+  #post-3{
     float:left;
     padding: 0.15625em;
     margin: 0.625em;
     height: auto;
     width: 45%;
   }
-  #a4{
+  #post-4{
     float:left;
     padding: 0.15625em;
     margin: 0.625em;
     height: auto;
     width: 45%;
   }
-  #a5{
+  #post-5{
     float:left;
     padding: 0.15625em;
     margin: 0.625em;
@@ -434,11 +434,64 @@ figure figcaption {
     width:45%;
   }
 
-  #a6{
+  #post-6{
     float:left;
-    padding: 5px;
-    margin: 5px;
+    padding: 0.15625em;
+    margin: 0.625em;
     height: auto;
     width:45%;
+  }
+
+  #cover {
+    margin-top: 1em;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+
+  #turtles_160919{
+  	float:left;
+    padding: 0.15625em;
+    margin: 0.3125em;
+    height: auto;
+    width: 30%;
+  }
+  #kaiSushi_160902{
+  	float:left;
+    padding: 0.15625em;
+    margin: 0.3125em;
+    height: auto;
+    width: 30%;
+  }
+  #laPomme_160106{
+  	float:left;
+    padding: 0.15625em;
+    margin: 0.3125em;
+    height: auto;
+    width: 30%;
+  }
+  #ghirardelli_160820{
+  	float:left;
+    padding: 0.15625em;
+    margin: 0.3125em;
+    height: auto;
+    width: 30%;
+  }
+  #mediumRare_161008{
+  	float:left;
+    padding: 0.15625em;
+  	margin: 0.3125em;
+    height: auto;
+    width: 30%;
+  }
+
+  #cotedor_160507 {
+  	float:left;
+    padding: 0.15625em;
+  	margin: 0.3125em;
+    height: auto;
+    width: 30%;
   }
 }
