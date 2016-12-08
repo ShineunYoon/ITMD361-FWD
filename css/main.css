@@ -189,7 +189,7 @@ figure figcaption {
 	html {
 	  font-size: 1.125em;
 	  line-height: 1.222em;
-	  background-color: white;
+	  background-color: #e0e0e0;
 	  color: black;
 	  font-family: 'Lato', sans-serif;
 	}
@@ -200,7 +200,7 @@ figure figcaption {
 	  position: absolute;
 	  width: 100%;
 	  height: 1.728em;
-	  background: black;
+	  background: white;
 	}
 
 	h1 {
@@ -231,7 +231,7 @@ figure figcaption {
 	}
 
 	.wrapper li a {
-		color: white;
+		color: black;
 	}
 
 	.schools li {
@@ -289,10 +289,11 @@ figure figcaption {
 	html {
 	  font-size: 1.125em;
 	  line-height: 1.222em;
-	  background-color: white;
+	  background-color: #e0e0e0;
 	  color: black;
 	  font-family: 'Lato', sans-serif;
-	  width:100%;height: 100%;
+	  width:100%;
+	  height: 100%;
 	}
 
 	nav {
@@ -301,7 +302,7 @@ figure figcaption {
 	  position: absolute;
 	  width: 100%;
 	  height: 1.728em;
-	  background: black;
+	  background: white;
 	}
 
 
@@ -336,7 +337,7 @@ figure figcaption {
 	}
 
 	.wrapper li a {
-		color: white;
+		color: black;
 	}
 
 	.schools li {
