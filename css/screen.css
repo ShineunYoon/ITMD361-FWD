@@ -403,43 +403,7 @@ figure figcaption {
     text-align: center;
   }
 
-  #post-1{
-    float:left;
-    padding: 0.15625em;
-    margin: 0.625em;
-    height: auto;
-    width:45%;
-  }
-  #post-2{
-    float:left;
-    padding: 0.15625em;
-    margin: 0.625em;
-    height: auto;
-    width:45%;
-  }
-  #post-3{
-    float:left;
-    padding: 0.15625em;
-    margin: 0.625em;
-    height: auto;
-    width: 45%;
-  }
-  #post-4{
-    float:left;
-    padding: 0.15625em;
-    margin: 0.625em;
-    height: auto;
-    width: 45%;
-  }
-  #post-5{
-    float:left;
-    padding: 0.15625em;
-    margin: 0.625em;
-    height: auto;
-    width:45%;
-  }
-
-  #post-6{
+  .m_article{
     float:left;
     padding: 0.15625em;
     margin: 0.625em;
